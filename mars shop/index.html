@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <img src="./image 2 (4).png" alt="" />
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li><svg class="svj-home" width="34" height="32" viewBox="0 0 34 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="34" height="32" fill="url(#pattern0_1_10)" />
+                                <defs>
+                                    <pattern id="pattern0_1_10" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_1_10" transform="matrix(0.04 0 0 0.0425 0 -0.01)" />
+                                    </pattern>
+                                    <image id="image0_1_10" width="25" height="24"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAACZklEQVRIDc2VS6hNYRTHD1fXwLMwUCJFKSGPUmROGBiRFBmJcksmFA4pJkaUoTrdjvP/fd++16VuFJ0JMZQiyUReA8yo69VxvnvWPnc/7Gtfj7Jrt9da/7XWt7712pXK//REUTQf2Af0NRqNVX81tmq1OlnSeeAr0Eq8d8LBf3zYwMDAHOC2OQaYHpxKOizpi6R3zrkNv31QSAnwEvgm6WjWEbAWeBMOc84dzOK/5IGdwAjw3jm3qcgAmCfpvt20Njw8PLVItytvNptTgIvBSNLDKIoWdMECIthIulTKxvJ/z6K6UiqqxMGS9gKfQ50kbUxAHbLVak0CHlj+D+UUSgoajcYa4BXwCViSMnPObbPrHkgBGSaKokXe+9VATwbqssBiu9HlrjAQwIV2B30MN0oBxgwODs4Gblkqw6y8CN31M13z5yQ9SeE2bCMpYYKRdDUEAZyWtB94Jul1PDcJ1VEy6ANPU3JbFy3v/dIU0GbCxNv1qzFmMxJutDWWJb/Ao7bOjaSs4r1fZ6nYkQI6qewJMyPpTIxZgUObb49l8dfW0HfgXCwb/QK9VvgTKcAYSXVL18lkuoaGhmZk9b33yy3g3Vks7KPnkpQDKpVKKLykm2UKb9sipH5lzhdwDXicAxKCki18VlJIV2/CtEMCo2DIaQ6cgGDcYJ1zuywdKybgM6c6XtrDQC4MhzjnjuUsSwq898ss0L5CE0nXw/4CjtRqtWmFihnAdt9m21sf6vX63IzKGNvf3z9T0t1EFyV/t2Xot9779WMeC6hQeOfclvYf73i7o6tlXufcqXYt9gCzCtz+e/EPnlIbE1wMl7QAAAAASUVORK5CYII=" />
+                                </defs>
+                                
+                            </svg>
+                            <a class="header-nav__link" href="#">home</a>
+
+                        </li>
+                        <li><svg class="svj-home" width="34" height="29" viewBox="0 0 34 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="34" height="29" fill="url(#pattern0_1_13)" />
+                                <defs>
+                                    <pattern id="pattern0_1_13" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_1_13"
+                                            transform="matrix(0.0416667 0 0 0.0488506 0 -0.0862069)" />
+                                    </pattern>
+                                    <image id="image0_1_13" width="24" height="24"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABxElEQVRIDb2VMUsDQRCFgwqColgoWOmvUBARBBEtLLQVhTQ2VoKVjaYQ/A9WEkK4+ZYQQiBYGRELKxEbG/0DVoJYWGkG99bT21svgh4smXvvzZvZ7N5uofDfT7vd7gOKfDznQJ6h6k2gN9gvMAHcAW/AM3CRo4BqVKs518BYZhGgCTwaY1Z+7CbholoRWQWegHKC+gwrlcqwdmGM2f1Eu4uAI+ClVCr1pDKBaTvNxRSZEwDW1aNWq02mUowx83YGczFpF/unRS4m9MvqEUXRVIy530SB+RjstoDPI/YqBEmnCgdBDx9Zr9dHFP8+FPeV8nk4nY8UkRO78LrH3VDcJSYCn4ejfeSfz8BVzxn4mnSpQdKpwkHQIyajKNoWkWMROctxDn35RjrHxY39llZSrcQF7GK+isjlLwrc2wI7vgIL1vyqXC4PpgQ5AGPMTmYBEdmy5F4OL69ERDZsk+74cEIRWbLkmgO7DBIeM6lU3fN2BgcpMicAHKpHo9EY8qaIyKneTiIy6xUEQLtJXvTSypQB45279UG76PyfuiO+bMOsd6vVo+S2Wq2OZhZQotlsDgD7QCPL0IPXjDF7rVarP2j+F+Q7VyKDqrxf8ngAAAAASUVORK5CYII=" />
+                                </defs>
+                            </svg>
+                            <a class="header-nav__link" href="#">leorning</a>
+                        </li>
+                        <li> <svg class="svj-home" width="30" height="29" viewBox="0 0 30 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="30" height="28.8" fill="url(#pattern0_1_16)" />
+                                <defs>
+                                    <pattern id="pattern0_1_16" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_1_16" transform="scale(0.04 0.0416667)" />
+                                    </pattern>
+                                    <image id="image0_1_16" width="25" height="24"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAADbUlEQVRIDcVWS6gdRRBtEz/v5U5XgYifhdmICiJuHkKSmztVNxE1uHAhwZWCoohEQTfZJIskguDCfEAIKm4M2Qp+8EPw88hKQyCo+AlZ+JCIRK3qufflEaOkfdV3Zug7eckiC3Ph0tXnVNepnurqGeeuxm809H0lOKAEHyjjV/YPDD8qwclmrqWfDwRnlOCbGvtSCA4rw85qPdx42byF8DVljMvO/yrjiSaoEFxQgnPNvCJ/NPmVIAkjnBeC3yZrUcdc3LuikHLByYlgd2Q3kztpEvHf5ZgQRCU4PoX1Z9Yqwc/C8H2Ot7Yy7FdGjVvd6hZ0zpngRLw4kuNK/ryWsJBjZiv5p8w/bMI7upyz5ysEn3WJqj+7Li0q/Ts5JwxBGUKOmV2VcGdKqvRPdzkTOSOEb3WJMPDPTESKHTmnJS4owfkcMzs6d016vAyvTHGR3bU1sWuKcM4F8ukwjAezj+Wc1UMJogXNcbOV4XclnNq5G7G/ybIVhhe6C6QsDhs36ru7c04ZPjL87MDdluNmW+GV8L0pPDq3yrauBHuniFRIOKIMcbTR35VzSnDIRMYbC87xOOeuE8JKGd7I8WSn5iM4Z83YkGGIc0rwtxIuKcOHse+8cdYHgbzVcMkOS7zHXW94EmA4aOJaFmUTpx0D9bZbxuYgDD8p4XzaHcP+MFjzbMIJz9ZNag37xyL3Hra+UMZfhOGoMI6TAEOMc25NG7wxhPB5JYxC/s1JF8NeGfTua/iKYIsQfCwMnyrB64vcu9W4+tA8oQTvC8MnFfl3U0IPOGzWtmMSYYyLm3u3tOAVGErw8tUVCYzPWQbjDcXNV7CBdsnyLfCSxWkOSUuYoSU8mbbZn1k7RdQTHfpHlfFtq0sg/6pcwk8YdyQR51ZdFEeG8IiRFcH9XVIJXkwJ2KmzdwyhCOGoKX7ub/2x7P9XjrX2Ujl7uwUK5Le3YG0o4XEh/DZucTcYZInUotsu8mU4pYSfd/F2bj0ghAvd52l3kTAcbB3T1WE9AftyLDA+finx1i8Me5utAYXgh1AWmxpCGf7sXhM5FtkVSrCnbt5j8UHXa9auOFYM64Tx15QRwelJDfw/YtdL/Q5JI8EFIX9aCb6eBE+v7UMmuGLgLmiZ2EdB+zFBsDAlMBFTJX9CCb+wa70awkPdOP/r/D9UrAHBJtOE5gAAAABJRU5ErkJggg==" />
+                                </defs>
+                            </svg><a class="header-nav__link" href="#">shop</a></li>
+
+
+
+                        <li><button class="header-button">+ post yaratish</button></li><img src="./image 7.png" alt="">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+      <section class="section">
+
+
+
+ 
+        <div class="magazine">
+            <img class="korzinka" src="./image 8 (1).png" alt="">
+        <h1 class="magazin">Magazin</h1>
+        </div>
+
+
+
+        <div class="ikkinchi-etap">
+            <input type="text" placeholder="Search....">
+            <button>Click</button>
+        </div>
+
+
+        <div class="tarih">
+<img class="vaqt" src="./image 9 (1).png" alt="">
+<h1>Haridlar tarixi</h1>
+        </div>
+
+
+
+      </section>
+</main>
+
+
+
+
+
+
+
+<section>
+    <div class="container">
+        <div class="product-king">
+            <div class="product">
+                <img src="./image 10 (1).png" alt="">
+                <h2>mars rug</h2>
+                <p> 100 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 22.png" alt="">
+                <h2>Keyboard sticker</h2>
+                <p> 49 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 23.png" alt="">
+                <h2>Smart watch</h2>
+                <p> 899  Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 24.png" alt="">
+                <h2>Wireless Keyboard</h2>
+                <p> 350 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            
+            <div class="product">
+                <img src="./image 25.png" alt="">
+                <h2>mouse</h2>
+                <p> 359 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 26.png" alt=" ">
+                <h2>air pods</h2>
+                <p> 350 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 27.png" alt="">
+                <h2>Powerbank</h2>
+                <p> 899 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 28.png" alt="">
+                <h2>USB flash drive</h2>
+                <p> 299 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="/image 29.png" alt="">
+                <h2>Smartphone</h2>
+                <p> 3699 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 30.png" alt="">
+                <h2>Playstation 5</h2>
+                <p> 7449 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+           
+            <div class="product">
+                <img src="./image 31.png" alt="">
+                <h2>Yandex Station</h2>                     
+                <p> 1999 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+            <div class="product">
+                <img src="./image 32.png" alt="">
+                <h2>  Planshet Samsung</h2>                    
+                <p> 4999 Coins</p>
+                <span>0 dona mavjud</span>
+            </div>
+    </div>
+   
+        
+
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</section>
+  
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --sarvar:#EF400F
+ 
+}
+
+.header-nav {}
+
+.header-wrapper {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button {
+    border-radius: 5px;
+    border-color: #EF400F;
+    width: 120px;
+    padding: 14px 0;
+    color: #EF400F;
+   
+
+}
+
+.header-button:hover {
+    border-radius: 5px;
+    width: 120px;
+    padding: 14px 0;
+    border: none;
+
+}
+
+.header-button:active {
+   border-radius: 5px;
+    width: 120px;
+    padding: 14px 0;
+     color: #fff;
+    transition: 300ms all ease;
+    border: 1px solid var(--AbdullohiRangi);
+    background-color: transparent;
+    color: var(--AbdullohiRangi);
+    box-shadow: none;
+}
+
+header{
+    box-shadow: 10px 10px 10px black;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  
+}
+.header-nav-list{
+    padding-right: 100px;
+}
+.svj-home:hover{
+    color: var(--AbdullohiRangi);
+}
+input{
+    width: 386px;
+    height: 63;
+    background-color: black;
+    color: white;
+
+}
+.click{
+    background-color: #0D0D5B;
+    color: white;
+    border-radius: 20px;
+   
+}
+
+
+
+
+
+
+.korzinka{
+    width: 56px;
+    height: 56px;
+}
+
+
+
+
+
+.ikkinchi-etap {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.ikkinchi-etap button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+   
+}
+.magazine{
+    display: flex;
+}
+.section{
+    display: flex;
+    gap: 300px;
+}
+.magazin{
+    color: #0D0D5B;
+}
+.tarih{
+    display: flex;
+}
+.vaqt{
+    width: 56px;
+    height: 56px;
+
+
+}
+.product-king {
+    
+    display: flex;
+  flex-wrap: wrap;
+    gap: 140px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+a:hover{
+    color: orangered;
+border: 0px solid white;
+border-bottom: 2px solid orangered;
+padding-bottom: 5px;
+transition: 400ms;
+}
+
+
+
+
+
+
+
+
+
+
